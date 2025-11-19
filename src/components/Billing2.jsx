@@ -10,38 +10,37 @@ import Autocomplete from "@mui/material/Autocomplete";
 import PrintableInvoice from "./PrintableInvoice";
 
 const INITIAL_PRODUCTS = [
-  // small general set + those from your uploaded invoice
-  { name: "Paracetamol", price: 10.00 },
-  { name: "Amoxicillin", price: 20.00 },
-  { name: "Cough Syrup", price: 50.00 },
-  { name: "Vitamin C", price: 15.00 },
-  { name: "Ibuprofen", price: 12.00 },
-  { name: "Antacid", price: 8.00 },
-
   { name: "GDCOLD-PDS", price: 80.00 },
   { name: "GEDFLOX-MS", price: 82.00 },
-  { name: "ACIKIND-P", price: 60.00 },
-  { name: "REFKIND-DSR", price: 40.00 },
-  { name: "LEMONTE-M", price: 90.00 },
-  { name: "PANKIND-DSR", price: 50.00 },
-  { name: "DICLOKIND-P", price: 56.00 },
-  { name: "HEALTHVIT", price: 43.00 },
-  { name: "MEGLOCID", price: 30.00 },
-  { name: "GASEDRAFT", price: 40.00 },
-  { name: "BONCARE D3", price: 45.00 },
-  { name: "GDMEF-P", price: 30.00 },
-  { name: "HUNGRYCIP", price: 80.00 },
-  { name: "GESTROKIND", price: 66.00 },
-  { name: "MONTAKIND-L", price: 30.00 },
-  { name: "FERROSE-XT", price: 60.00 },
-  { name: "GDCOLD DROPS", price: 310.00 },
-  { name: "LIVOCET-S", price: 140.00 },
-  { name: "ASAIRA SP", price: 240.00 },
-  { name: "CARBON D3", price: 280.00 },
-  { name: "GEDOZYME", price: 200.00 },
-  { name: "GDCOUGH-DX", price: 30.00 },
-  { name: "GDCOUGH-LX", price: 60.00 }
+  { name: "MONTANKID-L", price: 85.50 },
+  { name: "GDMF-P", price: 82.00 },
+  { name: "GDCOUGH-DX", price: 115.00 },
+  { name: "GDCOUGH-LS", price: 132.00 },
+  { name: "FERROSE-XT", price: 165.00 },
+  { name: "GASEDRAFT", price: 175.50 },
+  { name: "HEALTHVIT", price: 215.00 },
+  { name: "HUNGRYCYP", price: 142.00 },
+  { name: "CALBON-D3", price: 125.00 },
+  { name: "GESTROKIND", price: 99.00 },
+  { name: "MEGLOCID", price: 105.00 },
+  { name: "GDCOLD-DROPS", price: 125.00 },
+  { name: "BONCARE-D3", price: 280.00 },
+  { name: "GEODZYME", price: 135.00 },
+
+  // Capsules
+  { name: "PANKIND-DSR", price: 120.00 },
+  { name: "REBKIND-DSR", price: 109.00 },
+  { name: "ITROCON-200", price: 248.00 },
+
+  // Tablets
+  { name: "DICLOKIND-P", price: 47.95 },
+  { name: "ASAIRA-SP", price: 105.00 },
+  { name: "GDMOL-650", price: 22.40 },
+  { name: "ACIKIND-P", price: 65.00 },
+  { name: "LEMONET-M", price: 110.00 },
+  { name: "Livocet-5", price: 32.00 },
 ];
+
 
 const Billing2 = () => {
   // Company info (you can make these editable later)
